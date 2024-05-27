@@ -19,6 +19,19 @@ public class SmartKitchen{
     public DishWasher getDishWasher(){
         return dishWasher;
     }
+
+    public void setKitchenState(boolean coffeeFlag, boolean fridgeFlag, boolean dishWasherFlag){
+        
+        brewMaster.setHasWorkToDo(coffeeFlag);
+        icebox.setHasWorkToDo(fridgeFlag);
+        dishWasher.setHasWorkToDo(dishWasherFlag);
+    }
+
+    public void doKitchenWork{
+        brewMaster.brewCoffee();
+        icebox.orderFood();
+        dishWasher.doDishes();
+    }
 }
 
 class CoffeeMaker{

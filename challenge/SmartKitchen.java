@@ -30,7 +30,7 @@ public class SmartKitchen{
     public void doKitchenWork{
         brewMaster.brewCoffee();
         icebox.orderFood();
-        dishWasher.doDishes();
+        dishWasher.doDishes();x
     }
 }
 
